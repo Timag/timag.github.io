@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>About on </title>
+    <link>/hugo-goa-demo/tags/about/</link>
+    <description>Recent content in About on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <lastBuildDate>Sun, 02 Oct 2016 22:55:05 -0400</lastBuildDate>
+    
+	<atom:link href="/hugo-goa-demo/tags/about/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>About</title>
+      <link>/hugo-goa-demo/about/</link>
+      <pubDate>Sun, 02 Oct 2016 22:55:05 -0400</pubDate>
+      
+      <guid>/hugo-goa-demo/about/</guid>
+      <description>My name is Tonio Liebrand. I graduated with a M.Sc. in Finance. Prior to working as a data scientist in Frankfurt I gained ~2 years of experience as a consultant. I am also the co-founder and silent partner of a statistical consultancy (statistik-beratung.com).
+Why data science? In short it is the usage of my statistical toolbox to generate value from &amp;ldquo;raw&amp;rdquo; numbers and text. An example i like to tell in interviews, is described here.</description>
+    </item>
+    
+  </channel>
+</rss>

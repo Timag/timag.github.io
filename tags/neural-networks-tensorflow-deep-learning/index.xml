@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Neural Networks Tensorflow Deep Learning on </title>
+    <link>/hugo-goa-demo/tags/neural-networks-tensorflow-deep-learning/</link>
+    <description>Recent content in Neural Networks Tensorflow Deep Learning on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <lastBuildDate>Tue, 06 Jun 2017 20:59:12 -0400</lastBuildDate>
+    
+	<atom:link href="/hugo-goa-demo/tags/neural-networks-tensorflow-deep-learning/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Discover the Alps!.</title>
+      <link>/hugo-goa-demo/blog/alpstours/</link>
+      <pubDate>Tue, 06 Jun 2017 20:59:12 -0400</pubDate>
+      
+      <guid>/hugo-goa-demo/blog/alpstours/</guid>
+      <description>Before every great family vacation there comes a great family discussion: Where to go? We are mountain people. Even born and raised in northern Germany my brother and I spent 8 weeks a year, almost all our vacations, in the Alps for way over 20 years. Nothing compared to our parents (40&amp;frasl;50) years. A lot of experience, a lot of opinions on where we could avoid the increasing amount of green hills in the Alps but still stay away from avalanches.</description>
+    </item>
+    
+    <item>
+      <title>Me, ML and Granny Smith.</title>
+      <link>/hugo-goa-demo/blog/memlgrannysmith/</link>
+      <pubDate>Tue, 06 Jun 2017 20:59:12 -0400</pubDate>
+      
+      <guid>/hugo-goa-demo/blog/memlgrannysmith/</guid>
+      <description>Granny Who? Some time ago I read about (the image analysis framework of) Tensorflow and gave it a shot. Following some tutorials, I set up the framework until it was ready to be fed with a picture. I quickly googled the first thing coming to my mind, an apple and saved the picture. Then it was time to test it: Would the program be good enough? An apple shouldnt be that hard to recognize,&amp;hellip; The program finished within seconds and the top result was &amp;ldquo;Granny Smith&amp;rdquo;.</description>
+    </item>
+    
+    <item>
+      <title>Me, ML and Granny Smith.</title>
+      <link>/hugo-goa-demo/blog/third/</link>
+      <pubDate>Tue, 06 Jun 2017 20:59:12 -0400</pubDate>
+      
+      <guid>/hugo-goa-demo/blog/third/</guid>
+      <description>Granny Who? Some time ago I read about (the image analysis framework of) Tensorflow and gave it a shot. Following some tutorials, I set up the framework until it was ready to be fed with a picture. I quickly googled the first thing coming to my mind, an apple and saved the picture. Then it was time to test it: Would the program be good enough? An apple shouldnt be that hard to recognize,&amp;hellip; The program finished within seconds and the top result was &amp;ldquo;Granny Smith&amp;rdquo;.</description>
+    </item>
+    
+  </channel>
+</rss>

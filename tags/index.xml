@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on </title>
+    <link>/hugo-goa-demo/tags/</link>
+    <description>Recent content in Tags on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <lastBuildDate>Sun, 02 Oct 2016 22:55:05 -0400</lastBuildDate>
+    
+	<atom:link href="/hugo-goa-demo/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>About</title>
+      <link>/hugo-goa-demo/tags/about/</link>
+      <pubDate>Sun, 02 Oct 2016 22:55:05 -0400</pubDate>
+      
+      <guid>/hugo-goa-demo/tags/about/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Aviato</title>
+      <link>/hugo-goa-demo/tags/aviato/</link>
+      <pubDate>Sun, 02 Oct 2016 22:55:05 -0400</pubDate>
+      
+      <guid>/hugo-goa-demo/tags/aviato/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Bachman</title>
+      <link>/hugo-goa-demo/tags/bachman/</link>
+      <pubDate>Sun, 02 Oct 2016 22:55:05 -0400</pubDate>
+      
+      <guid>/hugo-goa-demo/tags/bachman/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Blogdown R Rstudio</title>
+      <link>/hugo-goa-demo/tags/blogdown-r-rstudio/</link>
+      <pubDate>Tue, 06 Jun 2017 20:59:12 -0400</pubDate>
+      
+      <guid>/hugo-goa-demo/tags/blogdown-r-rstudio/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Neural Networks Tensorflow Deep Learning</title>
+      <link>/hugo-goa-demo/tags/neural-networks-tensorflow-deep-learning/</link>
+      <pubDate>Tue, 06 Jun 2017 20:59:12 -0400</pubDate>
+      
+      <guid>/hugo-goa-demo/tags/neural-networks-tensorflow-deep-learning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Pied Piper</title>
+      <link>/hugo-goa-demo/tags/pied-piper/</link>
+      <pubDate>Sun, 02 Oct 2016 22:55:05 -0400</pubDate>
+      
+      <guid>/hugo-goa-demo/tags/pied-piper/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Plot</title>
+      <link>/hugo-goa-demo/tags/plot/</link>
+      <pubDate>Thu, 23 Jul 2015 21:13:14 -0500</pubDate>
+      
+      <guid>/hugo-goa-demo/tags/plot/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>R</title>
+      <link>/hugo-goa-demo/tags/r/</link>
+      <pubDate>Mon, 03 Jul 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/hugo-goa-demo/tags/r/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>R Markdown</title>
+      <link>/hugo-goa-demo/tags/r-markdown/</link>
+      <pubDate>Thu, 23 Jul 2015 21:13:14 -0500</pubDate>
+      
+      <guid>/hugo-goa-demo/tags/r-markdown/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Regression</title>
+      <link>/hugo-goa-demo/tags/regression/</link>
+      <pubDate>Thu, 23 Jul 2015 21:13:14 -0500</pubDate>
+      
+      <guid>/hugo-goa-demo/tags/regression/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Shiny</title>
+      <link>/hugo-goa-demo/tags/shiny/</link>
+      <pubDate>Mon, 03 Jul 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/hugo-goa-demo/tags/shiny/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Shiny Game</title>
+      <link>/hugo-goa-demo/tags/shiny-game/</link>
+      <pubDate>Tue, 06 Jun 2017 20:59:12 -0400</pubDate>
+      
+      <guid>/hugo-goa-demo/tags/shiny-game/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

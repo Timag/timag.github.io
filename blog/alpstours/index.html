@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+<meta name="description" content="Data Scientist Frankfurt">
+<meta name="keywords" content="R, Shiny, Machine Learning, Data, Science, Scientist, Frankfurt, Tonio, Liebrand, Python, Finance, Outlier, Detection, Bad, Data, Cleansing">
+
+<base href="/hugo-goa-demo/">
+
+<title></title>
+
+<meta name="generator" content="Hugo 0.24.1" />
+
+
+
+
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:300,400|Roboto+Slab:400,700|Roboto:300,300i,400,400i,500,500i,700,700i">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+<link rel="stylesheet" href="/hugo-goa-demo/css/main.css">
+
+
+
+
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32">
+<link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16">
+<link rel="manifest" href="/manifest.json">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="theme-color" content="#ffffff">
+
+</head>
+<body lang="en-US">
+<div class="container">
+
+
+<header class="row text-left title">
+  <h1 class="title">Discover the Alps!.</h1>
+</header>
+<section id="category-pane" class="row meta">
+  
+  <div class="col-md-12">
+    <h6 class="text-left meta">
+      PUBLISHED ON JUN 6, 2017 
+      
+      
+      — 
+      
+      
+      <a class="meta" href="/hugo-goa-demo/categories/machine-learning">MACHINE LEARNING</a>
+      
+      
+    </h6>
+  </div>
+  
+</section>
+<section id="content-pane" class="row">
+  <div class="col-md-12 text-justify content">
+    <p>Before every great family vacation there comes a great family discussion: Where to go? We are mountain people.
+Even born and raised in northern Germany my brother and I spent 8 weeks a year, almost all our vacations, in the Alps
+for way over 20 years. Nothing compared to our parents (<sup>40</sup>&frasl;<sub>50</sub>) years. A lot of experience, a lot of opinions on where
+we could avoid the increasing amount of green hills in the Alps but still stay away from avalanches.
+After hours of discussing a minor saracastic remark: &ldquo;There is a database of all ski tours over the last years.
+Someone can go through the site and manually build a good Excel sheet.&rdquo;</p>
+
+<p>&ldquo;Manually - Good excel sheet.&rdquo;.</p>
+
+<p>I began to smile.</p>
+
+<p>&ldquo;Good programmer&rdquo;,
+&ldquo;Good data scientist&rdquo;
+&ldquo;Good idea&rdquo;
+&ldquo;Good bye opinion based discussion. Here comes the data science.&rdquo;</p>
+
+<p>Users of the website Gipfelbuch.ch are providing the relevant data. They share on which day they (attempted to) climb which
+mountain and some optional features like group size, summit success (no/yes) etc.</p>
+
+<p>I plotted the summits on a map with leaflet and enabled dynamic filtering via Shiny, which can be seen here.</p>
+
+<p>Details:</p>
+
+<p>The site has no direct API so i wrote a small web crawler.
+Some data cleansing removed almost half the data as duplicates, leaving me with 30.000 observations over 6 years (2011-2017).</p>
+
+<p>Goal: Find a valley in Switzerland to do ski mountaineering in 2018.
+Side conditions: Enough snow, low avalanche probability, reasonable prices, no usage of lifts.</p>
+
+<p>Data exploration:
+  R Shiny + leaflet enable a interactive visualisation of geographic data.</p>
+
+<p>Sample selection:
+  - Of course the excursions posted on the website are only a small fraction of all excursions done (may ~1-5%).
+- Digital literacy and tendency to persue mountain climbs are probably not very correlated. Will younger people
+post more often, are they fitter, take higher risks, climb higher mountains?</p>
+
+<ul>
+<li>Motivation of posting tours could however depend on prestige and success of the tour.<br />
+Prestige of tour is correlated with altitude, success with conditions. Or would you post having failed climbing
+a 2000m peak on a rainy day?</li>
+</ul>
+
+<p>Filter the data:
+  - For us the problem of decreasing amount of snow began arising in 2015. 2011-2014 are therefore
+expected to be poor proxies for the conditions in 2018.
+- To exclude summer tours, the data was filtered for the months November- April
+- There will be hardly any snow below 1500m. For a good ski tour you require
+at least 1000m climb. Summits above 3600m mostly have glaciers, which we rather avoid in winter
+due to the danger of cravasses. Therefore the data is filtered for summits with altitude between 2600m-3600m.</p>
+
+  </div>
+</section>
+<section id="tag-pane" class="row meta">
+  
+  <div class="col-md-12">
+    <h6 class="text-right meta">
+      
+      
+      TAGS: 
+      
+      
+      <a class="meta" href="/hugo-goa-demo/tags/neural-networks-tensorflow-deep-learning">NEURAL NETWORKS, TENSORFLOW, DEEP LEARNING</a>
+      
+      
+    </h6>
+  </div>
+  
+</section>
+
+
+
+
+<section id="menu-pane" class="row menu text-center">
+  
+  
+  <span><a class="menu-item" href="/hugo-goa-demo/blog/blogdown_intro/">&lt; prev | </a></span>
+  
+  
+  <span><a class="menu-item" href="/hugo-goa-demo/blog">blog</a></span>
+  
+  
+  
+  <h4 class="text-center"><a class="menu-item" href="/hugo-goa-demo/">home</a></h4>
+</section>
+
+
+
+<footer class="row text-center footer">
+  <hr />
+  
+  <h6 class="text-center copyright">© 2017. Tonio. Liebrand. <a href="http://creativecommons.org/licenses/by/3.0/">All Rights Reserved</a>.</h6>
+  
+  <h6 class="text-center powered">Powered by <a href="https://gohugo.io/">Hugo</a> &amp; <a href="https://github.com/shenoybr/hugo-goa">Goa</a>.</h6>
+  
+  
+</footer>
+
+</div>
+
+
+
+
+
+
+<script>
+window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+ga('create', 'XYZ', 'auto');
+ga('send', 'pageview');
+</script>
+<script async src='//www.google-analytics.com/analytics.js'></script>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
+
+

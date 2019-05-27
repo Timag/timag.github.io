@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>R on </title>
+    <link>/hugo-goa-demo/tags/r/</link>
+    <description>Recent content in R on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <lastBuildDate>Mon, 03 Jul 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/hugo-goa-demo/tags/r/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>test</title>
+      <link>/hugo-goa-demo/post/test/</link>
+      <pubDate>Mon, 03 Jul 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/hugo-goa-demo/post/test/</guid>
+      <description>give it a test</description>
+    </item>
+    
+    <item>
+      <title>yoyoyo</title>
+      <link>/hugo-goa-demo/post/yoyoyo/</link>
+      <pubDate>Mon, 03 Jul 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/hugo-goa-demo/post/yoyoyo/</guid>
+      <description>asdadsas</description>
+    </item>
+    
+  </channel>
+</rss>

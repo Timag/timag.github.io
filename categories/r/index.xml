@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>R on </title>
+    <link>/hugo-goa-demo/categories/r/</link>
+    <description>Recent content in R on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <lastBuildDate>Mon, 03 Jul 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/hugo-goa-demo/categories/r/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>test</title>
+      <link>/hugo-goa-demo/post/test/</link>
+      <pubDate>Mon, 03 Jul 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/hugo-goa-demo/post/test/</guid>
+      <description>give it a test</description>
+    </item>
+    
+    <item>
+      <title>yoyoyo</title>
+      <link>/hugo-goa-demo/post/yoyoyo/</link>
+      <pubDate>Mon, 03 Jul 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/hugo-goa-demo/post/yoyoyo/</guid>
+      <description>asdadsas</description>
+    </item>
+    
+    <item>
+      <title>How to setup a blogdown site in 3 minutes from scrach.</title>
+      <link>/hugo-goa-demo/blog/blogdown_intro/</link>
+      <pubDate>Tue, 06 Jun 2017 20:59:12 -0400</pubDate>
+      
+      <guid>/hugo-goa-demo/blog/blogdown_intro/</guid>
+      <description>This site, big-data-scientist.de is written with blogdown. https://github.com/rstudio/blogdown. The package and the documentation are still under development (07.2017), but it works already great. I would like to contribute a quick-start tutorial, as i feel that could help some interested follower to get an overview. VIDEO. For a full tutorial see here: https://bookdown.org/yihui/blogdown/.</description>
+    </item>
+    
+    <item>
+      <title>Hello R Markdown</title>
+      <link>/hugo-goa-demo/post/2015-07-23-r-rmarkdown/</link>
+      <pubDate>Thu, 23 Jul 2015 21:13:14 -0500</pubDate>
+      
+      <guid>/hugo-goa-demo/post/2015-07-23-r-rmarkdown/</guid>
+      <description>R MarkdownThis is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see http://rmarkdown.rstudio.com.
+You can embed an R code chunk like this:
+summary(cars)## speed dist ## Min. : 4.0 Min. : 2.00 ## 1st Qu.:12.0 1st Qu.: 26.00 ## Median :15.0 Median : 36.00 ## Mean :15.4 Mean : 42.98 ## 3rd Qu.</description>
+    </item>
+    
+  </channel>
+</rss>

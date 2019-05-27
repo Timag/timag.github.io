@@ -1,0 +1,12 @@
+---
+title: yoyoyo
+author: Tonio
+date: '2017-07-03'
+slug: yoyoyo
+categories:
+  - R
+tags:
+  - r
+---
+
+asdadsas
