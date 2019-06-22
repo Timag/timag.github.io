@@ -66,7 +66,7 @@
     Recently, i helped a (fomer) colleague with creating some RMarkdown documents. We had to insert a lot of images in this documents, so quite
     some manual work was involved since the process of inserting images into RMarkdown documents is quite inefficient.
     <p>
-    I was just about ask a question on <a href = "https://stackoverflow.com/questions/55541345/copy-and-paste-an-image-from-clipboard-to-rmarkdown-rmd-code.">stackoverflow </a>:
+    I was just about ask a question on <a href = "https://stackoverflow.com/questions/55541345/copy-and-paste-an-image-from-clipboard-to-rmarkdown-rmd-code.">stackoverflow</a>:
     Then i decided to give it a shot myself.
     <p>
     <b> Introducing a workaround: </b>
@@ -78,9 +78,9 @@
     <p>      
     <b>Technical workthrough: </b>
     <p>
-    I wrote a little RStudio addin and shared it here: https://github.com/Timag/imageclipr.
+    I wrote a little RStudio addin and shared it <a href = "https://github.com/Timag/imageclipr"> on Github </a>.
 <p>
-      <b>Basically i started here: </b> 
+      <b>Basically i started here: </b> <br>
       <a href = "https://stackoverflow.com/questions/7045264/how-do-i-read-a-jpg-or-png-from-the-windows-clipboard-in-python-and-vice-versa" > How do I read a jpg or png from the windows clipboard in python and vice versa?. </a>
 <p>
       <b> I use this code to save the image: </b>
@@ -91,9 +91,9 @@ im = ImageGrab.grabclipboard() <br>
 im.save('somefile.png','PNG')
       </code>
 <p>  
-      Then i wrote a wrapper with library(reticulate) to run the python code from R. Thats what covers the "right part" of the gif: To copy the image to a directory.
+      Then i wrote a wrapper with <code> library(reticulate) </code> to run the python code from R. Thats what covers the "right part" of the gif: To copy the image to a directory.
 <br>
-For the "left part" I use library(rstudioapi). I take the current
+For the "left part" I use <code>library(rstudioapi)</code>. I take the current
 <p>
 <code>
 file: getActiveDocumentContext()$id <br>
@@ -114,13 +114,13 @@ directory: getActiveDocumentContext()$path <br>
       TAGS: 
       
       
-      <a class="meta" href="/tags/belson">BELSON</a>, 
+      <a class="meta" href="/tags/r">R</a>, 
       
-      <a class="meta" href="/tags/ceo">CEO</a>, 
+      <a class="meta" href="/tags/rstudio">RSTUDIO</a>, 
       
-      <a class="meta" href="/tags/gavin">GAVIN</a>, 
+      <a class="meta" href="/tags/markdown">MARKDOWN</a>, 
       
-      <a class="meta" href="/tags/hooli">HOOLI</a>
+      <a class="meta" href="/tags/rmarkdown">RMARKDOWN</a>
       
       
     </h6>
