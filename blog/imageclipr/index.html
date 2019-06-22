@@ -84,20 +84,21 @@
       <a href = "https://stackoverflow.com/questions/7045264/how-do-i-read-a-jpg-or-png-from-the-windows-clipboard-in-python-and-vice-versa" > How do I read a jpg or png from the windows clipboard in python and vice versa?. </a>
 
       <b> I use this code to save the image: </b>
-<code>
-from PIL import ImageGrab
-im = ImageGrab.grabclipboard()
+<p>
+      <code>
+from PIL import ImageGrab <br>
+im = ImageGrab.grabclipboard() <br>
 im.save('somefile.png','PNG')
       </code>
 <p>  
       Then i wrote a wrapper with library(reticulate) to run the python code from R. Thats what covers the "right part" of the gif: To copy the image to a directory.
 <br>
 For the "left part" I use library(rstudioapi). I take the current
-
+<p>
 <code>
-file: getActiveDocumentContext()$id
-line: getActiveDocumentContext()$selection[[1]]$range$start
-directory: getActiveDocumentContext()$path
+file: getActiveDocumentContext()$id <br>
+line: getActiveDocumentContext()$selection[[1]]$range$start <br>
+directory: getActiveDocumentContext()$path <br>
   </code>
 <p>   
       And then wrote a small RStudio addin: <a href = "https://rstudio.github.io/rstudioaddins/"> Github </a>.
