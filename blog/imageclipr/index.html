@@ -8,7 +8,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
 <meta name="description" content="Simple minimalist theme">
-<meta name="keywords" content="minimalist,blog,goa,hugo,developer">
+<meta name="keywords" content="blog,r,rstudio,markdown,rmarkdown,addin">
 
 <base href="/">
 
@@ -53,7 +53,7 @@
       — 
       
       
-      <a class="meta" href="/categories/propaganda">PROPAGANDA</a>
+      <a class="meta" href="/categories/propaganda">R</a>
       
       
     </h6>
@@ -65,34 +65,40 @@
 
     Recently, i helped a (fomer) colleague with creating some RMarkdown documents. We had to insert a lot of images in this documents, so quite
     some manual work was involved since the process of inserting images into RMarkdown documents is quite inefficient.
-    
+    <p>
     I was just about ask a question on stackoverflow: https://stackoverflow.com/questions/55541345/copy-and-paste-an-image-from-clipboard-to-rmarkdown-rmd-code.
     Then i decided to give it a shot myself.
-    
+    <p>
     <b> Introducing a workaround: </b>
-    
+    <br>
+      
     ![imageclipr](https://github.com/Timag/imageclipr/raw/master/usage.gif)
     
-    
+    <p>
     <b>Technical workthrough: </b>
-    
+    <br>
     I wrote a little RStudio addin and shared it here: https://github.com/Timag/imageclipr.
-
+<br>
 Basically i started here: <a href = "https://stackoverflow.com/questions/7045264/how-do-i-read-a-jpg-or-png-from-the-windows-clipboard-in-python-and-vice-versa" > How do I read a jpg or png from the windows clipboard in python and vice versa?. </a>
 
 I use this code to save the image:
-
+```
 from PIL import ImageGrab
 im = ImageGrab.grabclipboard()
 im.save('somefile.png','PNG')
-Then i wrote a wrapper with library(reticulate) to run the python code from R. Thats what covers the "right part" of the gif: To copy the image to a directory.
-
+```
+<p>  
+      Then i wrote a wrapper with library(reticulate) to run the python code from R. Thats what covers the "right part" of the gif: To copy the image to a directory.
+<br>
 For the "left part" I use library(rstudioapi). I take the current
 
+```
 file: getActiveDocumentContext()$id
 line: getActiveDocumentContext()$selection[[1]]$range$start
 directory: getActiveDocumentContext()$path
-And then wrote a small RStudio addin: https://rstudio.github.io/rstudioaddins/.
+```
+<br>   
+      And then wrote a small RStudio addin: https://rstudio.github.io/rstudioaddins/.
     
   </div>
 </section>
